@@ -24,7 +24,7 @@ php mass-scan.php --scan=<list dir to scan OR put dirname to specify dir scan> -
             // Add more backdoor strings below (Support REGEX)
             "indoxploit", "galerz", "backdoor", "php-cgi-shell", "cgi-shell",
             "php shell", "deface", "symlink", "adminer", "zone-h" , "zoneh", "defacer.id",
-            "defacer id", "brute force","move_uploaded_file","copy","kudusxploit","kudusXploit"
+            "defacer id", "brute force","move_uploaded_file","copy"
         ];
 
         private $exactlyMatches = 5; // aggressive level (less is more aggressive)
