@@ -4,7 +4,7 @@
 * @since 2020
 * USAGE : 
 
-php --scan=<list dir to scan OR put . (dot) to scan current dir OR put dirname to specify dir scan> --output=<output file name> --show-files=< 0 = only show amount of threats,1 = show files threat only, 2 = show all files scanned >
+php mass-scan.php --scan=<list dir to scan OR put dirname to specify dir scan> --output=<output file name> --show-files=< 0 = only show amount of threats,1 = show files threat only, 2 = show all files scanned
 
 */
     set_time_limit(999999);
